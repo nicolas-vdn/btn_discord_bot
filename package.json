@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nicolas-vdn/btn_discord_bot#readme",
   "dependencies": {
-    "discord.js": "^14.14.1"
+    "discord.js": "^14.14.1",
+    "moment": "^2.29.4"
   }
 }
