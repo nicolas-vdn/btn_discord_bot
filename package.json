@@ -1,0 +1,19 @@
+{
+  "name": "btn_discord_bot",
+  "version": "1.0.0",
+  "description": "Discord BOT for Team BTN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-vdn/btn_discord_bot.git"
+  },
+  "author": "Nicolas Van-Duysen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolas-vdn/btn_discord_bot/issues"
+  },
+  "homepage": "https://github.com/nicolas-vdn/btn_discord_bot#readme"
+}
