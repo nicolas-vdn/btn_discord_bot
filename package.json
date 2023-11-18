@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nicolas-vdn/btn_discord_bot/issues"
   },
-  "homepage": "https://github.com/nicolas-vdn/btn_discord_bot#readme"
+  "homepage": "https://github.com/nicolas-vdn/btn_discord_bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
 }
