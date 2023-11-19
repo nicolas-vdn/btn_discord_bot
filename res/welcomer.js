@@ -26,8 +26,6 @@ async function createAndSendWelcomerImage(member){
             data[0].print(data[4], 310-(Jimp.measureText(data[4], member.user.globalName)/2), 200, member.user.globalName)
             data[0].blit(data[5], 25, 110).writeAsync('./assets/temp/welcomer.png').then(() => {
                 member.guild.systemChannel.send({files:[{attachment: './assets/temp/welcomer.png'}]})
-                fs.unlink('./assets/temp/welcomer.png');
-                fs.unlink('./assets/temp/profilePic.png');
             })
     })
 
